@@ -1,0 +1,163 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "source": "/home/lizhyprgirl/.config/fastfetch/cace6c6d4d5c42ec1d4f238b0a5bae5d-removebg-preview.png",
+    "type": "kitty",
+    "width": 58
+  },
+  "display": {
+    "separator": " ➜ ",
+    "constants": [
+      "───────────────────────────────────"
+    ]
+  },
+  "modules": [
+    {
+      "type": "custom",
+      "format": "┌{$1}{$1}┐",
+      "outputColor": "magenta"
+    },
+    {
+      "type": "custom",
+      "format": "              Seja Bem-Vinda ao Terminal Kitty LizHackerGirl.              ",
+      "outputColor": "italic_"
+    },
+    {
+      "type": "custom",
+      "format": "└{$1}{$1}┘",
+      "outputColor": "magenta"
+    },
+
+    "break",
+
+    {
+      "type": "custom",
+      "format": "┌{$1}{$1}┐",
+      "outputColor": "cyan"
+    },
+
+    "break",
+
+    {
+      "type": "os",
+      "key": "{icon} OS",
+      "outputColor": "italic_"
+    },
+    {
+      "type": "kernel",
+      "key": " ├",
+      "keyColor": "cyan",
+      "outputColor": "italic_"
+    },
+    {
+      "type": "packages",
+      "key":" ├󰏖",
+      "keyColor": "cyan",
+      "outputColor": "italic_"
+    },
+    {
+      "type": "shell",
+      "key": " └",
+      "keyColor": "cyan",
+      "outputColor": "italic_"
+    },
+
+    "break",
+
+    {
+      "type": "wm",
+      "key": " DE/WM",
+      "keyColor": "cyan",
+      "outputColor": "italic_"
+    },
+    {
+      "type": "lm",
+      "key": " ├󰧨",
+      "keyColor": "cyan",
+      "outputColor": "italic_"
+    },
+    {
+      "type": "wmtheme",
+      "key": " ├󰉼",
+      "keyColor": "cyan",
+      "outputColor": "italic_"
+    },
+    {
+      "type": "icons",
+      "key": " ├󰀻",
+      "keyColor": "cyan",
+      "outputColor": "italic_"
+    },
+    {
+      "type": "terminal",
+      "key": " ├",
+      "keyColor": "cyan",
+      "outputColor": "italic_"
+    },
+    {
+      "type": "wallpaper",
+      "key": " └󰸉",
+      "keyColor": "cyan",
+      "outputColor": "italic_"
+    },
+
+    "break",
+
+    {
+      "type": "host",
+      "key": "󰌢 PC",
+      "keyColor": "cyan",
+      "outputColor": "italic_"
+    },
+    {
+      "type": "cpu",
+      "key": " ├󰻠",
+      "keyColor": "cyan",
+      "outputColor": "italic_"
+    },
+    {
+      "type": "gpu",
+      "key": " ├󰍛",
+      "keyColor": "cyan",
+      "outputColor": "italic_"
+    },
+    {
+      "type": "disk",
+      "key": " ├",
+      "keyColor": "cyan",
+      "outputColor": "italic_"
+    },
+    {
+      "type": "memory",
+      "key": " ├󰑭",
+      "keyColor": "cyan",
+      "outputColor": "italic_"
+    },
+    {
+      "type": "swap",
+      "key": " ├󰓡",
+      "keyColor": "cyan",
+      "outputColor": "italic_"
+    },
+    {
+      "type": "display",
+      "key": " ├󰍹",
+      "keyColor": "cyan",
+      "outputColor": "italic_"
+    },
+    {
+      "type": "uptime",
+      "key": " └󰅐",
+      "keyColor": "cyan",
+      "outputColor": "italic_"
+    },
+
+    "break",
+
+    {
+      "type": "custom",
+      "format": "└{$1}{$1}┘",
+      "outputColor": "cyan"
+    }
+  ]
+}
