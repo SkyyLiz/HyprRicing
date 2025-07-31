@@ -1,0 +1,10 @@
+show=combi
+width=500
+height=400
+show_all=true
+normal_window=false
+prompt=Escreve oque tu quer...
+allow_images=true
+allow_markup=true
+insensitive=true
+
