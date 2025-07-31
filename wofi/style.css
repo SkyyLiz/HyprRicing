@@ -1,11 +1,11 @@
 * {
   font: undefined;
   font-size: 12pt;
-  color: #1B4965;
+  color: #BEE9E8;
 }
 
 #window {
-  background: rgba(98, 182, 203, 0.6);
+  background: rgba(27, 73, 101, 1);
   margin:auto;
   padding: 10px;
   border: 4px solid #1B4965;
@@ -14,7 +14,7 @@
 #input {
   padding: 10px;
   margin-bottom: 10px;
-  background:#CAE9FF;
+  background:#1B4965;
 }
 
 #outer-box {
@@ -22,7 +22,7 @@
 }
 
 #img {
-  margin-right: 6px;
+  margin-right: 10px;
 }
 
 #entry {
